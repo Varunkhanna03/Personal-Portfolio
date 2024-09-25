@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun's Portfolio</title>
+    <script src="https://kit.fontawesome.com/aadbaedd87.js" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+</div>
+
+<div class="headertext">
+    <div class="headercontent">
+        <p>Front-End Developer<br>
+            <h1>Hi, I'm <span>Varun</span>
+                Khanna<br>
+                from Nagpur.
+            </h1>
+        </p>  
+    </div>
+    <div class="headerimg">
+        <img src="/IMG/formal.jpg" alt="">
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="aboutcol1">
+                <img src="IMG/vkimg.jpg" alt="">
+            </div>
+            <div class="aboutcol2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I am a recent Industrial graduate with a strong foundation in web development technologies and a passion for building innovative and user friendly websites . Throughout my academic career , I have developed proficiency in HTML5 , CSS3 , Javascript and various modern Frameworks . I am eager to bring my technical Skills , problem Solving abilities and enthusiasm for learning to a collaborative team environment .</p>
+
+                <div class="tabtitles">
+                    <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience & Projects</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabcontent activetab" id="skills">
+                    <ul>
+                        <li><Span>Programming Languages:</Span><br> HTML, CSS, JavaScript, Python, C</li>
+                        <li><span>Databases:</span><br> MySQL</li>
+                        <li><span>Tools & Technologies</span><br>Visual Studio Code, Github</li>
+                        <li><span>Specialized</span><br>WSD , WMVE , Motion Analysis</li>
+                    </ul>
+                </div>
+                <div class="tabcontent" id="experience">
+                    <ul>
+                        <li><Span>Internship</Span><br><br>Machine Learning : CORIZO<br>Web Developer : TopperWorld</Project></li>
+                        <li><span>Projects</span><br><br>MCDM <br>Work Sampling <br>Layout Design <br>Game development</li>
+                    </ul>
+                </div>
+                <div class="tabcontent" id="education">
+                    <ul>
+                        <li><Span>B.Tech in Industrail Engineering</Span><br>Ramdeobaba College of Engineering and Management <br>CGPA - 8.55</li>
+                        <li><span>HSC</span> <br>Jain Internaltional School : 79.4%</li>
+                        <li><span>SSC</span><br> Somalwar School : 79.4%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="servics">
+    <div class="container">
+        <h1 class="subtitle">Projects</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>To develop Proficiency in HTML and CSS which helped in developing a responsive and user friendly landing page.</p>
+                <a href="https://www.linkedin.com/posts/varun-khanna-63193a23a_topperworld-webdevelopment-frontend-activity-7220808115464626177-QnRl?utm_source=share&utm_medium=member_desktop">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-cash-register"></i>
+                <h2>Ecommerce </h2>
+                <p>Created a E-commerce website with HTML, CSS, JavaScript and different frameworks to gain experience of front-end development.Implemented interactive components and animations using CSS.</p>
+                <a href="https://www.linkedin.com/posts/varun-khanna-63193a23a_topperworld-webdeveloper-javascript-activity-7220979236080173057-vNdY?utm_source=share&utm_medium=member_desktop">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Tic Tac Toe</h2>
+                <p>Completed a fun and educational project: building a Tic Tac Toe game using pure JavaScript! This project was a fantastic opportunity to dive deep into the core concepts of JavaScript and apply them in a practical, hands-on way.</p>
+                <a href="https://www.linkedin.com/posts/varun-khanna-63193a23a_javascript-webdevelopment-coding-activity-7217726379507736576-FhzA?utm_source=share&utm_medium=member_desktop">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="conntainer">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+
+            <div class="work">
+                <img src="/IMG/work1.jpeg" alt="">
+                <div class="layer">
+                    <h3>Portfolio</h3>   
+                    <p>Created a Personal Portfolio Website to showcase my skills, projects, and passion for coding. It includes a diverse range of my work, of front-end design as well as some of my favorite coding projects. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>    
+            </div>
+
+            <div class="work">
+                <img src="/IMG/work2.jpeg" alt="">
+                <div class="layer">
+                    <h3>MCDM</h3>   
+                    <p>Different MCDM methods (like AHP , TOPSIS , VIKOR , GREY ) are applied in the field of logistics, particularly within the scope of sustainable supply chain management, emphasizing their importance and utility in real-world decision-making scenarios.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="/IMG/work3.jpeg" alt="">
+                <div class="layer">
+                    <h3>Work Sampling</h3>   
+                    <p>The work sampling analysis conducted in Ganesh Automobiles provided valuable insights into the efficiency, productivity, and utilization of labor and resources. It suggests potential areas for provement, particularly in machine downtime, process bottlenecks.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle">Contact Me</h1>
+                <p> <i class="fa-regular fa-envelope"></i> khannavarun866@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 8669807347</p>
+                <div class="socialicon">
+                    <a href="https://www.linkedin.com/in/varun-khanna-63193a23a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/vkk_.spamm/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/VarunKh25490133"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a  href="/VK Resume CORE.pdf" download class="btn btn2" >Download Resume</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Varun . Made by self</p>
+    </div>
+</div>
+
+</body>
+<script src="./app.js"></script>
+</html>
